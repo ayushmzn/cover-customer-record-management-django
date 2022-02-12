@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="static/css/sheet.css">
+    <meta charset="UTF-8">
+    <title>add_new_customer</title>
+</head>
+<body>
+     <h1 id="head"><span id="Head">Add new customer</span></h1>
+     <div id="sale">
+       <p>DATE:{{date}}</p>
+     </div>
+
+     <div id="add_customer">
+         <form action="/add_new_customer_done" method="post">
+             {% csrf_token %}
+             <table>
+                 <tr>
+                     <td id="color">Name:</td>
+                     <td>
+                         <input type="text" placeholder="name" name="name" required>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td id="color">Shop name:</td>
+                     <td>
+                         <input type="text" placeholder="shop_name" name="shop_name" required>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td id="color">Mobile:</td>
+                     <td>
+                         <input type="number" placeholder="+91" name="mobile" required>
+                     </td>
+                 </tr>
+                   <tr>
+                     <td id="color">City/village:</td>
+                     <td>
+                         <input type="text" placeholder="city/village" name="city" required>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td id="color">Address:</td>
+                     <td>
+                         <input type="text" placeholder="address" name="address" required>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td></td>
+                     <td>
+                         <input type="submit" value="create">
+                     </td>
+                 </tr>
+             </table>
+         </form>
+     </div>
+     <div id="links">
+         <a id="link" href="/add_new_customer">Add_new_customer</a><br>
+         <a id="link" href="/view_all_customers">View_all_customers</a><br>
+         <a id="link" href="/search_customer">Search_customer</a><br>
+         <a id="link" href="/Entry_to_send_goods">Entry_to_send_goods</a><br>
+         <a id="link" href="/Entry_for_deposit_money">Entry_for_deposit_money</a><br>
+         <a id="link" href="/home">click_here_for_home_page</a><br>
+     </div>
+     <div id="logout">
+         <a href="/userlogout">logout</a>
+     </div>
+
+</body>
+</html>

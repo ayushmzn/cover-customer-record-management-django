@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="static/css/t.css">
+    <meta charset="UTF-8">
+    <title>seached_rusult</title>
+</head>
+<body>
+      <h1 id="head"><span id="Head">Search results</span></h1>
+    <div id="sale">
+        <p>DATE:{{date}}</p>
+     </div>
+     <div id="search_form">
+      <form action="/searched_customer" method="post">
+       {% csrf_token%}
+      <label for="search">search_by:</label>
+      <select name="seacrh_by">
+          <option value="name" selected>name</option>
+          <option value="mobile">mobile_number</option>
+          <option value="city">city/village</option>
+          <option value="shop_name">shop_name</option>
+      </select>
+       <input type="search" placeholder="enter" name="search_value">
+       <input type="submit" value="search">
+      </form>
+    </div>
+      {% if search %}
+
+      <table id="table_data_search">
+           <thead id="table_head">
+               <th>S.N</th>
+               <th>name</th>
+               <th>shop name</th>
+               <th>mobile</th>
+               <th>city/village</th>
+               <th>address</th>
+               <th>doc</th>
+           </thead>
+         {% for x in search%}
+           <tr id="table_row">
+               <td>{{forloop.counter}}</td>
+               <td>{{x.name}}</td>
+               <td>{{x.shop_name}}</td>
+               <td>{{x.cus_mobile}}</td>
+               <td>{{x.city}}</td>
+               <td>{{x.address}}</td>
+               <td>{{x.doc}}</td>
+               <td id="details"><a href="view_customer_details?customer_id={{x.id}}"><span id="details">view_details</span></a></td>
+               <td id="edit"><a href="edit_costomer?customer_id={{x.id}}"><span id="edit">Edit</span></a> </td>
+               <td id="delete"><a href="delete_customer?customer_id={{x.id}}"><span id="delete">Delete</span></a> </td>
+           </tr>
+        {% endfor %}
+       </table>
+
+      {% else %}
+          <p id="no_results">no results found</p>
+      {% endif %}
+    <div id="links">
+        <a id="link" href="/add_new_customer">Add_new_customer</a><br>
+        <a id="link" href="/view_all_customers">View_all_customers</a><br>
+        <a id="link" href="/search_customer">Search_customer</a><br>
+        <a id="link" href="/Entry_to_send_goods">Entry_to_send_goods</a><br>
+        <a id="link" href="/Entry_for_deposit_money">Entry_for_deposit_money</a><br>
+        <a id="link" href="/home">click_here_for_home_page</a><br>
+    </div>
+    <div id="logout">
+        <a href="/userlogout">logout</a>
+    </div>
+</body>
+</html>

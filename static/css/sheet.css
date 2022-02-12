@@ -1,0 +1,132 @@
+#Head
+{color: maroon;}
+#head
+{
+  text-align: center;
+}
+#user_infos
+{
+  position: absolute;
+  left: 1%;
+  top: 10%;
+}
+#links
+{
+  position: absolute;
+  left: 1%;
+  top: 30%;
+  font-size: 16px;
+}
+#link
+{
+  color: royalblue;
+  font-size: 20px;
+  line-height: 220%;
+  text-decoration: none;
+}
+#link:hover
+{
+  color: maroon;
+  background-color: royalblue;
+}
+#table_head
+{
+  font-size: 20px;
+  background-color: royalblue;
+}
+#table_row
+{
+  background-color: lavenderblush;
+  border: solid;
+}
+#sale
+{
+  position: absolute;
+  right: 1%;
+  top: 10%;
+}
+
+#table_data
+{
+  border-collapse: separate;
+  border-spacing: 15px 10px;
+  border: solid;
+  border-color: maroon;
+  position: absolute;
+  top: 10%;
+  left: 16%;
+  line-height:200%;
+}
+#details:hover
+{
+  background-color: green;
+  color: white;
+}
+#delete:hover
+{
+  background-color: red;
+  color: white;
+}
+#edit:hover
+{
+  background-color: orange;
+  color: white;
+}
+a
+{
+  text-decoration: none;
+}
+#links2
+{
+  position: absolute;
+  right: 1%;
+  top: 10%;
+  line-height: 200%;
+}
+#edit_form
+{
+  background-color: lavenderblush;
+  line-height: 200%;
+  font-size: 25px;
+  position: absolute;
+  left: 35%;
+  top: 30%;
+}
+#color
+{
+  color: royalblue;
+}
+#delete_form
+{
+  position: absolute;
+  line-height: 130%;
+  font-size: 25px;
+  left: 40%;
+  top: 10%;
+}
+#add_customer
+{
+  position: absolute;
+  line-height: 200%;
+  left: 40%;
+  top: 30%;
+  font-size: 25px;
+
+}
+#search_form
+{
+  text-align: center;
+}
+#no_results
+{
+  text-align: center;
+  color: royalblue;
+  top: 30%;
+}
+#logout
+{
+  position: absolute;
+  right: 1%;
+  top: 2%;
+  font-size: 20px;
+}

@@ -1,0 +1,1968 @@
+[
+{
+    "model": "coverapp.user_info",
+    "pk": 1,
+    "fields": {
+        "user_id": 1,
+        "first_name": "aman",
+        "last_name": "verma",
+        "dob": "1997-10-06",
+        "mobile": 9568765277
+    }
+},
+{
+    "model": "coverapp.user_info",
+    "pk": 2,
+    "fields": {
+        "user_id": 2,
+        "first_name": "vansh",
+        "last_name": "verma",
+        "dob": "2005-09-24",
+        "mobile": 9219103616
+    }
+},
+{
+    "model": "coverapp.add_customer",
+    "pk": 12,
+    "fields": {
+        "name": "Danish",
+        "shop_name": "new paris foam house",
+        "cus_mobile": 9634627740,
+        "city": "mzn",
+        "address": "rampuri",
+        "doc": "2020-10-09"
+    }
+},
+{
+    "model": "coverapp.add_customer",
+    "pk": 14,
+    "fields": {
+        "name": "vikas jain",
+        "shop_name": "veetrag furniture",
+        "cus_mobile": 9837474325,
+        "city": "mzn",
+        "address": "vishvkarma chowk",
+        "doc": "2020-10-12"
+    }
+},
+{
+    "model": "coverapp.add_customer",
+    "pk": 17,
+    "fields": {
+        "name": "Deep",
+        "shop_name": "Deep furniture",
+        "cus_mobile": 9719622201,
+        "city": "mzn",
+        "address": "khalapar",
+        "doc": "2020-10-12"
+    }
+},
+{
+    "model": "coverapp.add_customer",
+    "pk": 20,
+    "fields": {
+        "name": "Shiv",
+        "shop_name": "Shiv furniture",
+        "cus_mobile": 9634898005,
+        "city": "mzn",
+        "address": "jansat  adda",
+        "doc": "2020-10-16"
+    }
+},
+{
+    "model": "coverapp.add_customer",
+    "pk": 24,
+    "fields": {
+        "name": "amit jain",
+        "shop_name": "siddharth furniture",
+        "cus_mobile": 9897118373,
+        "city": "mzn",
+        "address": "ead gah road",
+        "doc": "2020-10-17"
+    }
+},
+{
+    "model": "coverapp.add_customer",
+    "pk": 25,
+    "fields": {
+        "name": "hindustan",
+        "shop_name": "hindustan furniture",
+        "cus_mobile": 1312450632,
+        "city": "mzn",
+        "address": "ead gah road",
+        "doc": "2020-10-17"
+    }
+},
+{
+    "model": "coverapp.add_customer",
+    "pk": 26,
+    "fields": {
+        "name": "pankaj goel",
+        "shop_name": "goel handloom",
+        "cus_mobile": 9997222456,
+        "city": "mzn",
+        "address": "town hole",
+        "doc": "2020-10-17"
+    }
+},
+{
+    "model": "coverapp.add_customer",
+    "pk": 27,
+    "fields": {
+        "name": "aalishan",
+        "shop_name": "aalishan furniture",
+        "cus_mobile": 9837264670,
+        "city": "mzn",
+        "address": "bhopa adda",
+        "doc": "2020-10-17"
+    }
+},
+{
+    "model": "coverapp.add_customer",
+    "pk": 28,
+    "fields": {
+        "name": "akshay",
+        "shop_name": "akshay foam",
+        "cus_mobile": 9068392450,
+        "city": "mzn",
+        "address": "new mandi",
+        "doc": "2020-10-26"
+    }
+},
+{
+    "model": "coverapp.add_customer",
+    "pk": 29,
+    "fields": {
+        "name": "lakhan",
+        "shop_name": "keshav foam",
+        "cus_mobile": 9045122298,
+        "city": "mzn",
+        "address": "bhartiya coloney",
+        "doc": "2020-10-28"
+    }
+},
+{
+    "model": "coverapp.add_customer",
+    "pk": 30,
+    "fields": {
+        "name": "kanta",
+        "shop_name": "kanta fab",
+        "cus_mobile": 0,
+        "city": "mzn",
+        "address": "new mandi",
+        "doc": "2020-11-05"
+    }
+},
+{
+    "model": "coverapp.add_customer",
+    "pk": 31,
+    "fields": {
+        "name": "chavla",
+        "shop_name": "chavla foam",
+        "cus_mobile": 9997331431,
+        "city": "mzn",
+        "address": "sarvat gate",
+        "doc": "2020-11-09"
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 87,
+    "fields": {
+        "customer_shop_name": "None",
+        "customer_id": 14,
+        "items": "6*3*2 ch",
+        "quantity": 4,
+        "rate": 210.0,
+        "date_of_send_goods": "2020-10-17",
+        "date_of_cr": "2020-10-17",
+        "amount_of_goods": 840.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 88,
+    "fields": {
+        "customer_shop_name": "fur",
+        "customer_id": 17,
+        "items": "6x3x4 h ch",
+        "quantity": 1,
+        "rate": 300.0,
+        "date_of_send_goods": "2020-10-16",
+        "date_of_cr": null,
+        "amount_of_goods": 300.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 89,
+    "fields": {
+        "customer_shop_name": "fur",
+        "customer_id": 17,
+        "items": "6x3x6 h ch",
+        "quantity": 5,
+        "rate": 300.0,
+        "date_of_send_goods": "2020-10-16",
+        "date_of_cr": null,
+        "amount_of_goods": 1500.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 90,
+    "fields": {
+        "customer_shop_name": "veetrag furniture",
+        "customer_id": 14,
+        "items": "6x3x4 ch",
+        "quantity": 5,
+        "rate": 210.0,
+        "date_of_send_goods": "2020-10-17",
+        "date_of_cr": "2020-10-17",
+        "amount_of_goods": 1050.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 91,
+    "fields": {
+        "customer_shop_name": "veetrag furniture",
+        "customer_id": 14,
+        "items": "6x4x4 ch",
+        "quantity": 4,
+        "rate": 140.0,
+        "date_of_send_goods": "2020-10-16",
+        "date_of_cr": null,
+        "amount_of_goods": 560.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 92,
+    "fields": {
+        "customer_shop_name": "veetrag furniture",
+        "customer_id": 14,
+        "items": "75x47x4 ch",
+        "quantity": 2,
+        "rate": 150.0,
+        "date_of_send_goods": "2020-10-16",
+        "date_of_cr": null,
+        "amount_of_goods": 300.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 104,
+    "fields": {
+        "customer_shop_name": "new paris foam house",
+        "customer_id": 12,
+        "items": "last balance",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": "2020-10-17",
+        "date_of_cr": "2020-10-17",
+        "amount_of_goods": 9000.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 106,
+    "fields": {
+        "customer_shop_name": "Shiv furniture",
+        "customer_id": 20,
+        "items": "6x3x5 h ch",
+        "quantity": 10,
+        "rate": 270.0,
+        "date_of_send_goods": "2020-10-17",
+        "date_of_cr": "2020-10-17",
+        "amount_of_goods": 2700.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 107,
+    "fields": {
+        "customer_shop_name": "Shiv furniture",
+        "customer_id": 20,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-10-17",
+        "amount_of_goods": 0.0,
+        "cr_amount": 2000.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 115,
+    "fields": {
+        "customer_shop_name": "aalishan furniture",
+        "customer_id": 27,
+        "items": "last balance",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": "2020-10-17",
+        "date_of_cr": null,
+        "amount_of_goods": 25.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 116,
+    "fields": {
+        "customer_shop_name": "goel handloom",
+        "customer_id": 26,
+        "items": "last balance",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": "2020-11-12",
+        "date_of_cr": "2020-11-12",
+        "amount_of_goods": 200.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 117,
+    "fields": {
+        "customer_shop_name": "hindustan furniture",
+        "customer_id": 25,
+        "items": "last balance",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": "2020-10-17",
+        "date_of_cr": null,
+        "amount_of_goods": 1415.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 118,
+    "fields": {
+        "customer_shop_name": "new paris foam house",
+        "customer_id": 12,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-10-17",
+        "amount_of_goods": 0.0,
+        "cr_amount": 3000.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 119,
+    "fields": {
+        "customer_shop_name": "veetrag furniture",
+        "customer_id": 14,
+        "items": "6x3x2",
+        "quantity": 5,
+        "rate": 210.0,
+        "date_of_send_goods": "2020-10-17",
+        "date_of_cr": null,
+        "amount_of_goods": 1050.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 120,
+    "fields": {
+        "customer_shop_name": "veetrag furniture",
+        "customer_id": 14,
+        "items": "6x4x4 ch",
+        "quantity": 5,
+        "rate": 140.0,
+        "date_of_send_goods": "2020-10-17",
+        "date_of_cr": null,
+        "amount_of_goods": 700.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 121,
+    "fields": {
+        "customer_shop_name": "veetrag furniture",
+        "customer_id": 14,
+        "items": "6x3x4 ch",
+        "quantity": 4,
+        "rate": 210.0,
+        "date_of_send_goods": "2020-10-17",
+        "date_of_cr": null,
+        "amount_of_goods": 840.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 122,
+    "fields": {
+        "customer_shop_name": "aalishan furniture",
+        "customer_id": 27,
+        "items": "6x3x4 ch",
+        "quantity": 10,
+        "rate": 215.0,
+        "date_of_send_goods": "2020-10-17",
+        "date_of_cr": null,
+        "amount_of_goods": 2150.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 123,
+    "fields": {
+        "customer_shop_name": "aalishan furniture",
+        "customer_id": 27,
+        "items": "6x4x4 ch",
+        "quantity": 10,
+        "rate": 140.0,
+        "date_of_send_goods": "2020-10-17",
+        "date_of_cr": null,
+        "amount_of_goods": 1400.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 124,
+    "fields": {
+        "customer_shop_name": "aalishan furniture",
+        "customer_id": 27,
+        "items": "75x36x5 ch",
+        "quantity": 5,
+        "rate": 220.0,
+        "date_of_send_goods": "2020-10-17",
+        "date_of_cr": null,
+        "amount_of_goods": 1100.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 125,
+    "fields": {
+        "customer_shop_name": "aalishan furniture",
+        "customer_id": 27,
+        "items": "6x3x2 ch",
+        "quantity": 5,
+        "rate": 215.0,
+        "date_of_send_goods": "2020-10-17",
+        "date_of_cr": null,
+        "amount_of_goods": 1075.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 128,
+    "fields": {
+        "customer_shop_name": "aalishan furniture",
+        "customer_id": 27,
+        "items": "6x3x6 ch",
+        "quantity": 1,
+        "rate": 215.0,
+        "date_of_send_goods": "2020-10-18",
+        "date_of_cr": null,
+        "amount_of_goods": 215.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 129,
+    "fields": {
+        "customer_shop_name": "Deep furniture",
+        "customer_id": 17,
+        "items": "75x36x5",
+        "quantity": 1,
+        "rate": 300.0,
+        "date_of_send_goods": "2020-10-18",
+        "date_of_cr": null,
+        "amount_of_goods": 300.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 130,
+    "fields": {
+        "customer_shop_name": "hindustan furniture",
+        "customer_id": 25,
+        "items": "6x4x4 ch",
+        "quantity": 3,
+        "rate": 140.0,
+        "date_of_send_goods": "2020-10-20",
+        "date_of_cr": null,
+        "amount_of_goods": 420.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 131,
+    "fields": {
+        "customer_shop_name": "hindustan furniture",
+        "customer_id": 25,
+        "items": "6x3x4 ch",
+        "quantity": 6,
+        "rate": 215.0,
+        "date_of_send_goods": "2020-10-20",
+        "date_of_cr": null,
+        "amount_of_goods": 1290.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 132,
+    "fields": {
+        "customer_shop_name": "hindustan furniture",
+        "customer_id": 25,
+        "items": "6x3x4 h ch",
+        "quantity": 6,
+        "rate": 265.0,
+        "date_of_send_goods": "2020-10-20",
+        "date_of_cr": null,
+        "amount_of_goods": 1590.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 133,
+    "fields": {
+        "customer_shop_name": "veetrag furniture",
+        "customer_id": 14,
+        "items": "6x3x2 ch",
+        "quantity": 5,
+        "rate": 210.0,
+        "date_of_send_goods": "2020-10-22",
+        "date_of_cr": null,
+        "amount_of_goods": 1050.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 134,
+    "fields": {
+        "customer_shop_name": "veetrag furniture",
+        "customer_id": 14,
+        "items": "6x3x3 ch",
+        "quantity": 5,
+        "rate": 210.0,
+        "date_of_send_goods": "2020-10-22",
+        "date_of_cr": null,
+        "amount_of_goods": 1050.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 135,
+    "fields": {
+        "customer_shop_name": "new paris foam house",
+        "customer_id": 12,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-10-22",
+        "amount_of_goods": 0.0,
+        "cr_amount": 3000.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 138,
+    "fields": {
+        "customer_shop_name": "Deep furniture",
+        "customer_id": 17,
+        "items": "6x3x4 h ch",
+        "quantity": 3,
+        "rate": 300.0,
+        "date_of_send_goods": "2020-10-23",
+        "date_of_cr": null,
+        "amount_of_goods": 900.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 139,
+    "fields": {
+        "customer_shop_name": "Deep furniture",
+        "customer_id": 17,
+        "items": "75x36x5 h ch",
+        "quantity": 1,
+        "rate": 300.0,
+        "date_of_send_goods": "2020-10-23",
+        "date_of_cr": null,
+        "amount_of_goods": 300.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 140,
+    "fields": {
+        "customer_shop_name": "Deep furniture",
+        "customer_id": 17,
+        "items": "72x29x4 h ch",
+        "quantity": 1,
+        "rate": 300.0,
+        "date_of_send_goods": "2020-10-23",
+        "date_of_cr": null,
+        "amount_of_goods": 300.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 141,
+    "fields": {
+        "customer_shop_name": "hindustan furniture",
+        "customer_id": 25,
+        "items": "6x6x5 h ch",
+        "quantity": 4,
+        "rate": 300.0,
+        "date_of_send_goods": "2020-10-23",
+        "date_of_cr": null,
+        "amount_of_goods": 1200.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 143,
+    "fields": {
+        "customer_shop_name": "Deep furniture",
+        "customer_id": 17,
+        "items": "6x3x4 h ch",
+        "quantity": 4,
+        "rate": 300.0,
+        "date_of_send_goods": "2020-10-26",
+        "date_of_cr": null,
+        "amount_of_goods": 1200.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 144,
+    "fields": {
+        "customer_shop_name": "Shiv furniture",
+        "customer_id": 20,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-10-26",
+        "amount_of_goods": 0.0,
+        "cr_amount": 700.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 145,
+    "fields": {
+        "customer_shop_name": "aalishan furniture",
+        "customer_id": 27,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-10-26",
+        "amount_of_goods": 0.0,
+        "cr_amount": 4000.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 146,
+    "fields": {
+        "customer_shop_name": "akshay foam",
+        "customer_id": 28,
+        "items": "6x3x6 h ch",
+        "quantity": 12,
+        "rate": 290.0,
+        "date_of_send_goods": "2020-10-26",
+        "date_of_cr": null,
+        "amount_of_goods": 3480.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 147,
+    "fields": {
+        "customer_shop_name": "akshay foam",
+        "customer_id": 28,
+        "items": "75x36x6 h ch",
+        "quantity": 12,
+        "rate": 300.0,
+        "date_of_send_goods": "2020-10-26",
+        "date_of_cr": null,
+        "amount_of_goods": 3600.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 148,
+    "fields": {
+        "customer_shop_name": "keshav foam",
+        "customer_id": 29,
+        "items": "6x3x4 ch",
+        "quantity": 10,
+        "rate": 220.0,
+        "date_of_send_goods": "2020-10-28",
+        "date_of_cr": null,
+        "amount_of_goods": 2200.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 149,
+    "fields": {
+        "customer_shop_name": "keshav foam",
+        "customer_id": 29,
+        "items": "6x3x2 lining",
+        "quantity": 5,
+        "rate": 160.0,
+        "date_of_send_goods": "2020-10-28",
+        "date_of_cr": null,
+        "amount_of_goods": 800.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 150,
+    "fields": {
+        "customer_shop_name": "keshav foam",
+        "customer_id": 29,
+        "items": "6x4x4 ch",
+        "quantity": 8,
+        "rate": 145.0,
+        "date_of_send_goods": "2020-10-28",
+        "date_of_cr": null,
+        "amount_of_goods": 1160.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 151,
+    "fields": {
+        "customer_shop_name": "keshav foam",
+        "customer_id": 29,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-10-28",
+        "amount_of_goods": 0.0,
+        "cr_amount": 1000.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 152,
+    "fields": {
+        "customer_shop_name": "Shiv furniture",
+        "customer_id": 20,
+        "items": "6x4x4 h ch",
+        "quantity": 8,
+        "rate": 170.0,
+        "date_of_send_goods": "2020-10-28",
+        "date_of_cr": null,
+        "amount_of_goods": 1360.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 153,
+    "fields": {
+        "customer_shop_name": "Shiv furniture",
+        "customer_id": 20,
+        "items": "6x3x4 h ch",
+        "quantity": 10,
+        "rate": 265.0,
+        "date_of_send_goods": "2020-10-28",
+        "date_of_cr": null,
+        "amount_of_goods": 2650.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 154,
+    "fields": {
+        "customer_shop_name": "akshay foam",
+        "customer_id": 28,
+        "items": "6x3x6 h ch",
+        "quantity": 11,
+        "rate": 290.0,
+        "date_of_send_goods": "2020-10-28",
+        "date_of_cr": null,
+        "amount_of_goods": 3190.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 155,
+    "fields": {
+        "customer_shop_name": "Deep furniture",
+        "customer_id": 17,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-11-01",
+        "amount_of_goods": 0.0,
+        "cr_amount": 4800.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 156,
+    "fields": {
+        "customer_shop_name": "hindustan furniture",
+        "customer_id": 25,
+        "items": "6x4x7 h ch",
+        "quantity": 1,
+        "rate": 220.0,
+        "date_of_send_goods": "2020-11-01",
+        "date_of_cr": null,
+        "amount_of_goods": 220.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 157,
+    "fields": {
+        "customer_shop_name": "new paris foam house",
+        "customer_id": 12,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-11-01",
+        "amount_of_goods": 0.0,
+        "cr_amount": 3000.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 158,
+    "fields": {
+        "customer_shop_name": "hindustan furniture",
+        "customer_id": 25,
+        "items": "6x4x4 ch",
+        "quantity": 5,
+        "rate": 140.0,
+        "date_of_send_goods": "2020-11-02",
+        "date_of_cr": null,
+        "amount_of_goods": 700.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 159,
+    "fields": {
+        "customer_shop_name": "hindustan furniture",
+        "customer_id": 25,
+        "items": "6x4x4 h ch",
+        "quantity": 5,
+        "rate": 165.0,
+        "date_of_send_goods": "2020-11-02",
+        "date_of_cr": "2020-11-02",
+        "amount_of_goods": 825.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 160,
+    "fields": {
+        "customer_shop_name": "veetrag furniture",
+        "customer_id": 14,
+        "items": "6x4x4 ch",
+        "quantity": 8,
+        "rate": 140.0,
+        "date_of_send_goods": "2020-11-02",
+        "date_of_cr": null,
+        "amount_of_goods": 1120.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 161,
+    "fields": {
+        "customer_shop_name": "hindustan furniture",
+        "customer_id": 25,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-11-02",
+        "amount_of_goods": 0.0,
+        "cr_amount": 5000.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 162,
+    "fields": {
+        "customer_shop_name": "keshav foam",
+        "customer_id": 29,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-11-02",
+        "amount_of_goods": 0.0,
+        "cr_amount": 1000.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 163,
+    "fields": {
+        "customer_shop_name": "aalishan furniture",
+        "customer_id": 27,
+        "items": "77x48x4 ch",
+        "quantity": 2,
+        "rate": 150.0,
+        "date_of_send_goods": "2020-11-02",
+        "date_of_cr": null,
+        "amount_of_goods": 300.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 165,
+    "fields": {
+        "customer_shop_name": "veetrag furniture",
+        "customer_id": 14,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-11-03",
+        "amount_of_goods": 0.0,
+        "cr_amount": 5000.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 166,
+    "fields": {
+        "customer_shop_name": "Deep furniture",
+        "customer_id": 17,
+        "items": "6x3x3 h ch",
+        "quantity": 2,
+        "rate": 300.0,
+        "date_of_send_goods": "2020-11-05",
+        "date_of_cr": null,
+        "amount_of_goods": 600.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 167,
+    "fields": {
+        "customer_shop_name": "Deep furniture",
+        "customer_id": 17,
+        "items": "6x3x4 h ch",
+        "quantity": 2,
+        "rate": 300.0,
+        "date_of_send_goods": "2020-11-05",
+        "date_of_cr": null,
+        "amount_of_goods": 600.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 168,
+    "fields": {
+        "customer_shop_name": "hindustan furniture",
+        "customer_id": 25,
+        "items": "cover repair",
+        "quantity": 3,
+        "rate": 15.0,
+        "date_of_send_goods": "2020-11-05",
+        "date_of_cr": null,
+        "amount_of_goods": 45.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 169,
+    "fields": {
+        "customer_shop_name": "kanta fab",
+        "customer_id": 30,
+        "items": "72x73x4",
+        "quantity": 1,
+        "rate": 300.0,
+        "date_of_send_goods": "2020-11-05",
+        "date_of_cr": null,
+        "amount_of_goods": 300.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 172,
+    "fields": {
+        "customer_shop_name": "Deep furniture",
+        "customer_id": 17,
+        "items": "6x3x4 h ch",
+        "quantity": 2,
+        "rate": 300.0,
+        "date_of_send_goods": "2020-11-06",
+        "date_of_cr": null,
+        "amount_of_goods": 600.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 173,
+    "fields": {
+        "customer_shop_name": "aalishan furniture",
+        "customer_id": 27,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-11-07",
+        "amount_of_goods": 0.0,
+        "cr_amount": 2265.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 174,
+    "fields": {
+        "customer_shop_name": "keshav foam",
+        "customer_id": 29,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-11-07",
+        "amount_of_goods": 0.0,
+        "cr_amount": 1000.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 175,
+    "fields": {
+        "customer_shop_name": "kanta fab",
+        "customer_id": 30,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-11-07",
+        "amount_of_goods": 0.0,
+        "cr_amount": 300.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 176,
+    "fields": {
+        "customer_shop_name": "siddharth furniture",
+        "customer_id": 24,
+        "items": "78x38x5 h ch",
+        "quantity": 1,
+        "rate": 320.0,
+        "date_of_send_goods": "2020-11-07",
+        "date_of_cr": null,
+        "amount_of_goods": 320.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 177,
+    "fields": {
+        "customer_shop_name": "siddharth furniture",
+        "customer_id": 24,
+        "items": "78x45x4 h ch",
+        "quantity": 1,
+        "rate": 230.0,
+        "date_of_send_goods": "2020-11-07",
+        "date_of_cr": null,
+        "amount_of_goods": 230.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 178,
+    "fields": {
+        "customer_shop_name": "siddharth furniture",
+        "customer_id": 24,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-11-07",
+        "amount_of_goods": 0.0,
+        "cr_amount": 550.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 179,
+    "fields": {
+        "customer_shop_name": "akshay foam",
+        "customer_id": 28,
+        "items": "6x3x6 h ch",
+        "quantity": 6,
+        "rate": 290.0,
+        "date_of_send_goods": "2020-11-07",
+        "date_of_cr": null,
+        "amount_of_goods": 1740.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 180,
+    "fields": {
+        "customer_shop_name": "akshay foam",
+        "customer_id": 28,
+        "items": "75x36x6 h ch",
+        "quantity": 8,
+        "rate": 300.0,
+        "date_of_send_goods": "2020-11-07",
+        "date_of_cr": null,
+        "amount_of_goods": 2400.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 181,
+    "fields": {
+        "customer_shop_name": "akshay foam",
+        "customer_id": 28,
+        "items": "70x77.5x5.5 h ch",
+        "quantity": 3,
+        "rate": 310.0,
+        "date_of_send_goods": "2020-11-07",
+        "date_of_cr": null,
+        "amount_of_goods": 930.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 182,
+    "fields": {
+        "customer_shop_name": "akshay foam",
+        "customer_id": 28,
+        "items": "68.5x77.5x5.5 h ch",
+        "quantity": 1,
+        "rate": 310.0,
+        "date_of_send_goods": "2020-11-07",
+        "date_of_cr": null,
+        "amount_of_goods": 310.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 183,
+    "fields": {
+        "customer_shop_name": "akshay foam",
+        "customer_id": 28,
+        "items": "45x76x5 h ch",
+        "quantity": 2,
+        "rate": 200.0,
+        "date_of_send_goods": "2020-11-07",
+        "date_of_cr": null,
+        "amount_of_goods": 400.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 184,
+    "fields": {
+        "customer_shop_name": "akshay foam",
+        "customer_id": 28,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-11-07",
+        "amount_of_goods": 0.0,
+        "cr_amount": 10000.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 185,
+    "fields": {
+        "customer_shop_name": "veetrag furniture",
+        "customer_id": 14,
+        "items": "6x3x4 ch",
+        "quantity": 5,
+        "rate": 210.0,
+        "date_of_send_goods": "2020-11-08",
+        "date_of_cr": null,
+        "amount_of_goods": 1050.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 186,
+    "fields": {
+        "customer_shop_name": "Deep furniture",
+        "customer_id": 17,
+        "items": "6x3x4 h ch",
+        "quantity": 2,
+        "rate": 275.0,
+        "date_of_send_goods": "2020-11-08",
+        "date_of_cr": null,
+        "amount_of_goods": 550.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 187,
+    "fields": {
+        "customer_shop_name": "aalishan furniture",
+        "customer_id": 27,
+        "items": "75x36x4 h ch",
+        "quantity": 1,
+        "rate": 270.0,
+        "date_of_send_goods": "2020-11-08",
+        "date_of_cr": null,
+        "amount_of_goods": 270.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 188,
+    "fields": {
+        "customer_shop_name": "keshav foam",
+        "customer_id": 29,
+        "items": "75x36x5 h ch",
+        "quantity": 1,
+        "rate": 270.0,
+        "date_of_send_goods": "2020-11-08",
+        "date_of_cr": null,
+        "amount_of_goods": 270.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 189,
+    "fields": {
+        "customer_shop_name": "Deep furniture",
+        "customer_id": 17,
+        "items": "6x3x4 h ch",
+        "quantity": 2,
+        "rate": 275.0,
+        "date_of_send_goods": "2020-11-09",
+        "date_of_cr": null,
+        "amount_of_goods": 550.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 190,
+    "fields": {
+        "customer_shop_name": "siddharth furniture",
+        "customer_id": 24,
+        "items": "6x3x7 h ch",
+        "quantity": 1,
+        "rate": 250.0,
+        "date_of_send_goods": "2020-11-18",
+        "date_of_cr": "2020-11-18",
+        "amount_of_goods": 250.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 191,
+    "fields": {
+        "customer_shop_name": "hindustan furniture",
+        "customer_id": 25,
+        "items": "75x36x5 h ch",
+        "quantity": 3,
+        "rate": 275.0,
+        "date_of_send_goods": "2020-11-09",
+        "date_of_cr": null,
+        "amount_of_goods": 825.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 192,
+    "fields": {
+        "customer_shop_name": "aalishan furniture",
+        "customer_id": 27,
+        "items": "6x4x6 h ch",
+        "quantity": 1,
+        "rate": 170.0,
+        "date_of_send_goods": "2020-11-09",
+        "date_of_cr": null,
+        "amount_of_goods": 170.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 193,
+    "fields": {
+        "customer_shop_name": "akshay foam",
+        "customer_id": 28,
+        "items": "72x78x6 h ch",
+        "quantity": 1,
+        "rate": 320.0,
+        "date_of_send_goods": "2020-11-09",
+        "date_of_cr": null,
+        "amount_of_goods": 320.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 194,
+    "fields": {
+        "customer_shop_name": "akshay foam",
+        "customer_id": 28,
+        "items": "70x75x6 h ch",
+        "quantity": 2,
+        "rate": 310.0,
+        "date_of_send_goods": "2020-11-09",
+        "date_of_cr": null,
+        "amount_of_goods": 620.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 195,
+    "fields": {
+        "customer_shop_name": "akshay foam",
+        "customer_id": 28,
+        "items": "29x70x5 ch",
+        "quantity": 1,
+        "rate": 130.0,
+        "date_of_send_goods": "2020-11-09",
+        "date_of_cr": null,
+        "amount_of_goods": 130.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 196,
+    "fields": {
+        "customer_shop_name": "chavla foam",
+        "customer_id": 31,
+        "items": "6x3x2 lining",
+        "quantity": 4,
+        "rate": 150.0,
+        "date_of_send_goods": "2020-11-18",
+        "date_of_cr": "2020-11-18",
+        "amount_of_goods": 600.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 197,
+    "fields": {
+        "customer_shop_name": "veetrag furniture",
+        "customer_id": 14,
+        "items": "6x3x4 ch",
+        "quantity": 5,
+        "rate": 210.0,
+        "date_of_send_goods": "2020-11-10",
+        "date_of_cr": null,
+        "amount_of_goods": 1050.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 198,
+    "fields": {
+        "customer_shop_name": "akshay foam",
+        "customer_id": 28,
+        "items": "71x71x6 h ch",
+        "quantity": 1,
+        "rate": 300.0,
+        "date_of_send_goods": "2020-11-10",
+        "date_of_cr": null,
+        "amount_of_goods": 300.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 199,
+    "fields": {
+        "customer_shop_name": "akshay foam",
+        "customer_id": 28,
+        "items": "60x72x6 h ch",
+        "quantity": 1,
+        "rate": 290.0,
+        "date_of_send_goods": "2020-11-10",
+        "date_of_cr": null,
+        "amount_of_goods": 290.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 200,
+    "fields": {
+        "customer_shop_name": "veetrag furniture",
+        "customer_id": 14,
+        "items": "72x75x6 h ch",
+        "quantity": 1,
+        "rate": 330.0,
+        "date_of_send_goods": "2020-11-11",
+        "date_of_cr": null,
+        "amount_of_goods": 330.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 201,
+    "fields": {
+        "customer_shop_name": "veetrag furniture",
+        "customer_id": 14,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-11-11",
+        "amount_of_goods": 0.0,
+        "cr_amount": 3560.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 202,
+    "fields": {
+        "customer_shop_name": "hindustan furniture",
+        "customer_id": 25,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-11-11",
+        "amount_of_goods": 0.0,
+        "cr_amount": 3000.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 203,
+    "fields": {
+        "customer_shop_name": "akshay foam",
+        "customer_id": 28,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-11-11",
+        "amount_of_goods": 0.0,
+        "cr_amount": 5000.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 204,
+    "fields": {
+        "customer_shop_name": "siddharth furniture",
+        "customer_id": 24,
+        "items": "70x72x4 h ch",
+        "quantity": 2,
+        "rate": 300.0,
+        "date_of_send_goods": "2020-11-11",
+        "date_of_cr": null,
+        "amount_of_goods": 600.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 205,
+    "fields": {
+        "customer_shop_name": "siddharth furniture",
+        "customer_id": 24,
+        "items": "6x3x4 h ch",
+        "quantity": 6,
+        "rate": 300.0,
+        "date_of_send_goods": "2020-11-11",
+        "date_of_cr": null,
+        "amount_of_goods": 1800.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 206,
+    "fields": {
+        "customer_shop_name": "aalishan furniture",
+        "customer_id": 27,
+        "items": "75x36x4 ch",
+        "quantity": 3,
+        "rate": 225.0,
+        "date_of_send_goods": "2020-11-12",
+        "date_of_cr": null,
+        "amount_of_goods": 675.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 207,
+    "fields": {
+        "customer_shop_name": "aalishan furniture",
+        "customer_id": 27,
+        "items": "6x3x3 ch",
+        "quantity": 3,
+        "rate": 215.0,
+        "date_of_send_goods": "2020-11-12",
+        "date_of_cr": null,
+        "amount_of_goods": 645.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 208,
+    "fields": {
+        "customer_shop_name": "aalishan furniture",
+        "customer_id": 27,
+        "items": "6x4x4 ch",
+        "quantity": 3,
+        "rate": 140.0,
+        "date_of_send_goods": "2020-11-12",
+        "date_of_cr": null,
+        "amount_of_goods": 420.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 209,
+    "fields": {
+        "customer_shop_name": "goel handloom",
+        "customer_id": 26,
+        "items": "6x3x4 ch",
+        "quantity": 8,
+        "rate": 220.0,
+        "date_of_send_goods": "2020-11-12",
+        "date_of_cr": null,
+        "amount_of_goods": 1760.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 210,
+    "fields": {
+        "customer_shop_name": "goel handloom",
+        "customer_id": 26,
+        "items": "6x3x5 h ch",
+        "quantity": 6,
+        "rate": 270.0,
+        "date_of_send_goods": "2020-11-12",
+        "date_of_cr": null,
+        "amount_of_goods": 1620.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 211,
+    "fields": {
+        "customer_shop_name": "goel handloom",
+        "customer_id": 26,
+        "items": "6x3x5 hb ch",
+        "quantity": 2,
+        "rate": 300.0,
+        "date_of_send_goods": "2020-11-12",
+        "date_of_cr": null,
+        "amount_of_goods": 600.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 212,
+    "fields": {
+        "customer_shop_name": "goel handloom",
+        "customer_id": 26,
+        "items": "6x3x5 h ch",
+        "quantity": 2,
+        "rate": 330.0,
+        "date_of_send_goods": "2020-11-12",
+        "date_of_cr": null,
+        "amount_of_goods": 660.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 213,
+    "fields": {
+        "customer_shop_name": "goel handloom",
+        "customer_id": 26,
+        "items": "6x4x4 h ch",
+        "quantity": 5,
+        "rate": 180.0,
+        "date_of_send_goods": "2020-11-12",
+        "date_of_cr": null,
+        "amount_of_goods": 900.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 214,
+    "fields": {
+        "customer_shop_name": "Shiv furniture",
+        "customer_id": 20,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-11-12",
+        "amount_of_goods": 0.0,
+        "cr_amount": 4010.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 215,
+    "fields": {
+        "customer_shop_name": "Deep furniture",
+        "customer_id": 17,
+        "items": "6x3x4 h ch",
+        "quantity": 5,
+        "rate": 300.0,
+        "date_of_send_goods": "2020-11-12",
+        "date_of_cr": null,
+        "amount_of_goods": 1500.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 216,
+    "fields": {
+        "customer_shop_name": "Deep furniture",
+        "customer_id": 17,
+        "items": "71.5x36x2.75",
+        "quantity": 1,
+        "rate": 300.0,
+        "date_of_send_goods": "2020-11-12",
+        "date_of_cr": null,
+        "amount_of_goods": 300.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 217,
+    "fields": {
+        "customer_shop_name": "akshay foam",
+        "customer_id": 28,
+        "items": "cover repairing",
+        "quantity": 4,
+        "rate": 50.0,
+        "date_of_send_goods": "2020-11-12",
+        "date_of_cr": null,
+        "amount_of_goods": 200.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 218,
+    "fields": {
+        "customer_shop_name": "goel handloom",
+        "customer_id": 26,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-11-12",
+        "amount_of_goods": 0.0,
+        "cr_amount": 2000.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 219,
+    "fields": {
+        "customer_shop_name": "siddharth furniture",
+        "customer_id": 24,
+        "items": "6x3x4 h ch",
+        "quantity": 5,
+        "rate": 300.0,
+        "date_of_send_goods": "2020-11-13",
+        "date_of_cr": null,
+        "amount_of_goods": 1500.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 220,
+    "fields": {
+        "customer_shop_name": "siddharth furniture",
+        "customer_id": 24,
+        "items": "6x4x4 h ch",
+        "quantity": 5,
+        "rate": 200.0,
+        "date_of_send_goods": "2020-11-13",
+        "date_of_cr": null,
+        "amount_of_goods": 1000.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 221,
+    "fields": {
+        "customer_shop_name": "akshay foam",
+        "customer_id": 28,
+        "items": "75x38x6 h ch",
+        "quantity": 1,
+        "rate": 310.0,
+        "date_of_send_goods": "2020-11-13",
+        "date_of_cr": null,
+        "amount_of_goods": 310.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 223,
+    "fields": {
+        "customer_shop_name": "Deep furniture",
+        "customer_id": 17,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-11-17",
+        "amount_of_goods": 0.0,
+        "cr_amount": 4700.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 224,
+    "fields": {
+        "customer_shop_name": "veetrag furniture",
+        "customer_id": 14,
+        "items": "6x4x4 ch",
+        "quantity": 7,
+        "rate": 140.0,
+        "date_of_send_goods": "2020-11-17",
+        "date_of_cr": "2020-11-17",
+        "amount_of_goods": 980.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 225,
+    "fields": {
+        "customer_shop_name": "aalishan furniture",
+        "customer_id": 27,
+        "items": "6x3x2 ch",
+        "quantity": 4,
+        "rate": 215.0,
+        "date_of_send_goods": "2020-11-17",
+        "date_of_cr": null,
+        "amount_of_goods": 860.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 226,
+    "fields": {
+        "customer_shop_name": "aalishan furniture",
+        "customer_id": 27,
+        "items": "6x4x2 ch",
+        "quantity": 4,
+        "rate": 140.0,
+        "date_of_send_goods": "2020-11-17",
+        "date_of_cr": null,
+        "amount_of_goods": 560.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 227,
+    "fields": {
+        "customer_shop_name": "veetrag furniture",
+        "customer_id": 14,
+        "items": "6x3x2 ch",
+        "quantity": 15,
+        "rate": 210.0,
+        "date_of_send_goods": "2020-11-18",
+        "date_of_cr": null,
+        "amount_of_goods": 3150.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 228,
+    "fields": {
+        "customer_shop_name": "veetrag furniture",
+        "customer_id": 14,
+        "items": "47x76x4 h ch",
+        "quantity": 1,
+        "rate": 220.0,
+        "date_of_send_goods": "2020-11-18",
+        "date_of_cr": null,
+        "amount_of_goods": 220.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 229,
+    "fields": {
+        "customer_shop_name": "Deep furniture",
+        "customer_id": 17,
+        "items": "6x4x4 h ch",
+        "quantity": 4,
+        "rate": 200.0,
+        "date_of_send_goods": "2020-11-18",
+        "date_of_cr": null,
+        "amount_of_goods": 800.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 230,
+    "fields": {
+        "customer_shop_name": "Deep furniture",
+        "customer_id": 17,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-11-18",
+        "amount_of_goods": 0.0,
+        "cr_amount": 800.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 231,
+    "fields": {
+        "customer_shop_name": "siddharth furniture",
+        "customer_id": 24,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-11-18",
+        "amount_of_goods": 0.0,
+        "cr_amount": 5150.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 232,
+    "fields": {
+        "customer_shop_name": "keshav foam",
+        "customer_id": 29,
+        "items": "38x68x4 h ch",
+        "quantity": 1,
+        "rate": 150.0,
+        "date_of_send_goods": "2020-11-18",
+        "date_of_cr": null,
+        "amount_of_goods": 150.0,
+        "cr_amount": 0.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 233,
+    "fields": {
+        "customer_shop_name": "keshav foam",
+        "customer_id": 29,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-11-18",
+        "amount_of_goods": 0.0,
+        "cr_amount": 1000.0
+    }
+},
+{
+    "model": "coverapp.customer_transections",
+    "pk": 234,
+    "fields": {
+        "customer_shop_name": "chavla foam",
+        "customer_id": 31,
+        "items": "0",
+        "quantity": 0,
+        "rate": 0.0,
+        "date_of_send_goods": null,
+        "date_of_cr": "2020-11-18",
+        "amount_of_goods": 0.0,
+        "cr_amount": 600.0
+    }
+}
+]

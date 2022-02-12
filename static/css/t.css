@@ -1,0 +1,103 @@
+#table_data_search
+{
+  border-collapse: separate;
+  border-spacing: 15px 10px;
+  border: solid;
+  border-color: maroon;
+  position: absolute;
+  top: 20%;
+  left: 18%;
+  line-height:200%;
+}
+#links
+{
+  position: absolute;
+  left: 1%;
+  top: 30%;
+  font-size: 16px;
+}
+#link
+{
+  color: royalblue;
+  font-size: 20px;
+  line-height: 220%;
+  text-decoration: none;
+}
+#link:hover
+{
+  color: maroon;
+  background-color: royalblue;
+}
+#table_head
+{
+  font-size: 20px;
+  background-color: royalblue;
+}
+#table_row
+{
+  background-color: lavenderblush;
+  border: solid;
+}
+#sale
+{
+  position: absolute;
+  right: 1%;
+  top: 10%;
+}
+
+#details:hover
+{
+  background-color: green;
+  color: white;
+}
+#delete:hover
+{
+  background-color: red;
+  color: white;
+}
+#edit:hover
+{
+  background-color: orange;
+  color: white;
+}
+a
+{
+  text-decoration: none;
+}
+#table_head
+{
+  font-size: 20px;
+  background-color: royalblue;
+}
+#table_row
+{
+  background-color: lavenderblush;
+  border: solid;
+}
+#Head
+{color: maroon;}
+#head
+{
+  text-align: center;
+}
+#search_form
+{
+  text-align: center;
+}
+#no_results
+{
+  text-align: center;
+  color: royalblue;
+  top: 30%;
+}
+#entry_send_goods
+{
+  background-color: red;
+}
+#logout
+{
+  position: absolute;
+  right: 1%;
+  top: 2%;
+  font-size: 20px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="static/css/sheet.css">
+    <meta charset="UTF-8">
+    <title>deletedetails</title>
+</head>
+<body>
+    <h1 id="head"><span id="Head">Delete transections</span></h1>
+
+  <div id="delete_form">
+    <h1>Are you sure to delete:</h1><br>
+    <p><span id="color">Shop_name:</span>{{delete_details.customer_shop_name}}</p>
+    <p><span id="color">Items:</span>{{delete_details.items}}</p>
+    <p><span id="color">Quantity:</span>{{delete_details.quantity}}</p>
+    <p><span id="color">Rate:</span>{{delete_details.rate}}</p>
+    <p><span id="color">Amount_of_goods:</span>{{delete_details.amount_of_goods}}</p>
+    <p><span id="color">Date_of_cr:</span>{{delete_details.date_of_cr}}</p>
+    <p><span id="color">Cr_amount:</span>{{delete_details.cr_amount}}</p>
+    <a id="details" href="/view_customer_details_edited">NO</a>
+    <a id="delete" href="/detele_details_confirm">YES</a>
+  </div>
+  <div id="links">
+      <a id="link" href="/add_new_customer">Add_new_customer</a><br>
+      <a id="link" href="/view_all_customers">View_all_customers</a><br>
+      <a id="link" href="/search_customer">Search_customer</a><br>
+      <a id="link" href="/Entry_to_send_goods">Entry_to_send_goods</a><br>
+      <a id="link" href="/Entry_for_deposit_money">Entry_for_deposit_money</a><br>
+      <a id="link" href="/home">click_here_for_home_page</a><br>
+  </div>
+  <div id="logout">
+      <a href="/userlogout">logout</a>
+  </div>
+
+
+</body>
+</html>

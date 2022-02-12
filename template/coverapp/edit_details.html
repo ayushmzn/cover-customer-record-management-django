@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="static/css/sheet.css">
+    <meta charset="UTF-8">
+    <title>edit_details</title>
+</head>
+<body>
+  <h2 id="head"><span id="Head">Edit transection</span><h2>
+  <div id="edit_form">
+   <form action="/update_details" method="post">
+       {% csrf_token %}
+       <table>
+           <input type="hidden" name="record_id" value="{{tran.id}}">
+           <input type="hidden" name="customer_id" value="{{tran.customer_id}}">
+           <input type="hidden" name="customer_shop_name" value="{{tran.customer_shop_name}}">
+           <tr>
+               <td id="color">Item:</td>
+               <td>
+                   <input type="text" name="item" value="{{tran.items}}">
+               </td>
+           </tr>
+           <tr>
+               <td id="color">Quantity:</td>
+               <td>
+                   <input type="number" name="quantity" value="{{tran.quantity}}">
+               </td>
+           </tr>
+           <tr>
+               <td id="color">Rate:</td>
+               <td>
+                   <input type="number" name="rate" value="{{tran.rate}}">
+               </td>
+           </tr>
+
+           <tr>
+               <td id="color">Amount_of_goods:</td>
+               <td>
+                   <input type="number" name="amount_of_goods" value="{{tran.amount_of_goods}}">
+               </td>
+           </tr>
+
+           <tr>
+               <td id="color">Cr_amount:</td>
+               <td>
+                   <input type="number" name="cr_amount" value="{{tran.cr_amount}}">
+               </td>
+           </tr>
+           <tr>
+               <td></td>
+               <td>
+                   <input type="submit" value="edit">
+               </td>
+           </tr>
+
+       </table>
+   </form>
+ </div>
+ <div id="links">
+     <a id="link" href="/add_new_customer">Add_new_customer</a><br>
+     <a id="link" href="/view_all_customers">View_all_customers</a><br>
+     <a id="link" href="/search_customer">Search_customer</a><br>
+     <a id="link" href="/Entry_to_send_goods">Entry_to_send_goods</a><br>
+     <a id="link" href="/Entry_for_deposit_money">Entry_for_deposit_money</a><br>
+     <a id="link" href="/home">click_here_for_home_page</a><br>
+ </div>
+ <div id="logout">
+     <a href="/userlogout">logout</a>
+ </div>
+</body>
+</html>

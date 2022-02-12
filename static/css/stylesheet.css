@@ -1,0 +1,29 @@
+#login
+{
+background-image:url("../images/picture1.jpg");
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+#head
+{
+  text-align:center;
+}
+#login_form
+{
+  color: navy;
+  font-size: 20px;
+}
+#links
+{
+  background-image: url("../images/pic3.jpg");
+  background-color: red;
+}
+#Head
+{
+  color: red;
+}
+#red
+{
+  background-color: red;
+}

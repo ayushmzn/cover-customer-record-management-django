@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="static/css/sheet.css">
+    <meta charset="UTF-8">
+    <title>home</title>
+</head>
+<body>
+<h1 id="head"><span id="Head">Hello {{first_name}}, Welcome to Customer Record Management</span></h1>
+    <div id="sale">
+      <h1>DATE:{{date}}</h1>
+   <h2><span id="table_head">Total_sales:</span><span id="table_row">{{total_sales}}</span></h2>
+   <h2><span id="table_head">Total_credit:</span><span id="table_row">{{total_cr}}</span></h2>
+   <h2><span id="table_head">Remaining_bal:</span><span id="table_row">{{remaining_bal}}</span></h2>
+     </div>
+   <div id="user_infos">
+       <h1> user information </h1>
+       <table>
+           <thead id="table_head">
+               <th>first name</th>
+               <th>last name</th>
+               <th>date of birth</th>
+               <th>mobile number</th>
+           </thead>
+           <tr id="table_row">
+               <td>{{first_name}}</td>
+               <td>{{last_name}}</td>
+               <td>{{dob}}</td>
+               <td>{{mobile}}</td>
+           </tr>
+       </table>
+   </div>
+   <div id="links">
+       <a id="link" href="/add_new_customer">Add_new_customer</a><br>
+       <a id="link" href="/view_all_customers">View_all_customers</a><br>
+       <a id="link" href="/search_customer">Search_customer</a><br>
+       <a id="link" href="/Entry_to_send_goods">Entry_to_send_goods</a><br>
+       <a id="link" href="/Entry_for_deposit_money">Entry_for_deposit_money</a><br>
+   </div>
+   <div id="logout">
+       <a href="/userlogout">logout</a>
+   </div>
+</body>
+</html>

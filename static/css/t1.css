@@ -1,0 +1,50 @@
+
+#links
+{
+  position: absolute;
+  left: 1%;
+  top: 30%;
+  font-size: 16px;
+}
+#link
+{
+  color: royalblue;
+  font-size: 20px;
+  line-height: 220%;
+  text-decoration: none;
+}
+#sale
+{
+  position: absolute;
+  right: 1%;
+  top: 10%;
+}
+a
+{
+  text-decoration: none;
+}
+#Head
+{color: maroon;}
+#head
+{
+  text-align: center;
+}
+#entry_send_goods
+{
+  position: absolute;
+  line-height: 200%;
+  left: 37%;
+  top: 30%;
+  font-size: 25px;
+}
+#color
+{
+  color: royalblue;
+}
+#logout
+{
+  position: absolute;
+  right: 1%;
+  top: 2%;
+  font-size: 20px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="static/css/sheet.css">
+    <meta charset="UTF-8">
+    <title>show_details</title>
+</head>
+<body>
+   <h2 id="head"><span id="Head">Name:{{name}}--shop_name:{{shop_name}}--address:{{address}}--city:{{city}}</span></h2>
+   <h2>Left-balance:{{left_balance}}</h2>
+   <h2>Sales:{{sum}}</h2>
+   <h2>Total_cr:{{sum1}}</h2>
+   {% if details %}
+   <table id="table_data">
+           <thead id="table_head">
+               <th>S.N</th>
+               <th>Items</th>
+               <th>Quantity</th>
+               <th>Rate</th>
+               <th>Date_of_send_goods</th>
+               <th>Amount_of_goods</th>
+               <th>Date_of_cr</th>
+               <th>Cr_amount</th>
+           </thead>
+           {% for x in details %}
+           <tr id="table_row">
+               <td>{{forloop.counter}}</td>
+               <td>{{x.items}}</td>
+               <td>{{x.quantity}}</td>
+               <td>{{x.rate}}</td>
+               <td>{{x.date_of_send_goods}}</td>
+               <td>{{x.amount_of_goods}}</td>
+               <td>{{x.date_of_cr}}</td>
+               <td>{{x.cr_amount}}</td>
+               <td>
+                   <a href="/edit_details?record_id={{x.id}}"><span id="edit">Edit</span></a>
+               </td>
+                <td>
+                   <a href="/deletedetails?record_id={{x.id}}"><span id="delete">Delete</span></a>
+               </td>
+           </tr>
+          {% endfor %}
+       </table>
+       {% else %}
+           <p id="delete_form">details not found</p>
+     {% endif %}
+     <div id="links">
+         <a id="link" href="/add_new_customer">Add_new_customer</a><br>
+         <a id="link" href="/view_all_customers">View_all_customers</a><br>
+         <a id="link" href="/search_customer">Search_customer</a><br>
+         <a id="link" href="/Entry_to_send_goods">Entry_to_send_goods</a><br>
+         <a id="link" href="/Entry_for_deposit_money">Entry_for_deposit_money</a><br>
+         <a id="link" href="/home">click_here_for_home_page</a><br>
+     </div>
+     <div id="links2">
+                  DATE:{{date}}<br>
+                <a id="link" href='/Entry_to_send_goods_inside_view_details'>Create_a_record<a/><br>
+                <a id="link" href='/Entry_for_deposit_money_inside_details'>Add_credit_amount<a/><br>
+      </div>
+      <div id="logout">
+          <a href="/userlogout">logout</a>
+      </div>
+
+</body>
+</html>

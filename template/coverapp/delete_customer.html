@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="static/css/sheet.css">
+    <meta charset="UTF-8">
+    <title>delete_customer</title>
+</head>
+<body>
+  <h2 id="head"><span id="Head">Delete customer</span><h2>
+  <div id="delete_form">
+   <h2>Are you sure to delete:</h2>
+   <table>
+           <tr>
+               <td id="color">Name:</td>
+               <td>
+                   {{customer_details.name}}
+               </td>
+           </tr>
+           <tr>
+               <td id="color">Shop_name:</td>
+               <td>
+                   {{customer_details.shop_name}}
+               </td>
+           </tr>
+           <tr>
+               <td id="color">Mobile:</td>
+               <td>
+                   {{customer_details.cus_mobile}}
+               </td>
+           </tr>
+           <tr>
+               <td id="color">City:</td>
+               <td>
+                   {{customer_details.city}}
+               </td>
+           </tr>
+           <tr>
+               <td id="color">Address:</td>
+               <td>
+                   {{customer_details.address}}
+               </td>
+           </tr>
+   </table>
+       <a id="details" href="/view_all_customers">NO</a>
+       <a id="delete" href="/detele_customer_confirm?customer_id={{customer_details.id}}">YES</a>
+  </div>
+  <div id="links">
+      <a id="link" href="/add_new_customer">Add_new_customer</a><br>
+      <a id="link" href="/view_all_customers">View_all_customers</a><br>
+      <a id="link" href="/search_customer">Search_customer</a><br>
+      <a id="link" href="/Entry_to_send_goods">Entry_to_send_goods</a><br>
+      <a id="link" href="/Entry_for_deposit_money">Entry_for_deposit_money</a><br>
+      <a id="link" href="/home">click_here_for_home_page</a><br>
+  </div>
+  <div id="logout">
+      <a href="/userlogout">logout</a>
+  </div>
+</body>
+</html>

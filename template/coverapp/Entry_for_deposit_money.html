@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="static/css/t1.css">
+    <meta charset="UTF-8">
+    <title>Entry_for_deposit_money</title>
+</head>
+<body>
+  <h1 id="head"><span id="Head">Credit money</span></h1>
+  <div id="entry_send_goods">
+   <form action="/add_credit_money" method="post">
+       {% csrf_token%}
+        <label id="color">Select_customer:</label>
+        <select name="select_customer">
+             {% for x in customers %}
+             <option value="{{x.id}}">{{x.name}}//{{x.shop_name}}//{{x.city}}</option>
+             {% endfor %}
+         </select>
+       <table>
+              <tr>
+                  <td id="color">Enter_amount:</td>
+                  <td>
+                      <input type="number" name="amount" placeholder="enter_amount">
+                  </td>
+              </tr>
+
+              <tr>
+                  <td></td>
+                  <td>
+                      <input type="submit" value="add">
+                  </td>
+              </tr>
+        </table>
+   </form>
+ </div>
+ <div id="sale">
+     <p>DATE:{{date}}</p>
+  </div>
+ <div id="links">
+     <a id="link" href="/add_new_customer">Add_new_customer</a><br>
+     <a id="link" href="/view_all_customers">View_all_customers</a><br>
+     <a id="link" href="/search_customer">Search_customer</a><br>
+     <a id="link" href="/Entry_to_send_goods">Entry_to_send_goods</a><br>
+     <a id="link" href="/Entry_for_deposit_money">Entry_for_deposit_money</a><br>
+     <a id="link" href="/home">click_here_for_home_page</a><br>
+ </div>
+ <div id="logout">
+     <a href="/userlogout">logout</a>
+ </div>
+</body>
+</html>

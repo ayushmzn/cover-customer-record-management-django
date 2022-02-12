@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="static/css/t1.css">
+    <meta charset="UTF-8">
+    <title>Entry_to_send_goods</title>
+</head>
+<body>
+  <h1 id="head"><span id="Head">Add transection</span></h1>
+  <div id="entry_send_goods">
+    <form action="/entry_save" method="post">
+        {% csrf_token%}
+        <label id="color" for="select_cust">select_customer:</label>
+         <select name="select_customer">
+             {% for x in customers %}
+             <option value="{{x.id}}">{{x.name}}//{{x.shop_name}}//{{x.city}}</option>
+             {% endfor %}
+         </select>
+        <table>
+              <tr>
+                  <td id="color">Items:</td>
+                  <td>
+                      <input type="text" name="items" placeholder="enter_items">
+                  </td>
+              </tr>
+              <tr>
+                  <td id="color">Quantity:</td>
+                  <td>
+                      <input type="number" name="quantity" placeholder="quantity">
+                  </td>
+              </tr>
+              <tr>
+                  <td id="color">Rate:</td>
+                  <td>
+                      <input type="number" name="rate" placeholder="rate">
+                  </td>
+              </tr>
+              <tr>
+                  <td id="color">Amount_of_goods:</td>
+                  <td>
+                      <input type="number" name="amount_of_goods" placeholder="amount_of_goods">
+                  </td>
+              </tr>
+
+              <tr>
+                  <td></td>
+                  <td>
+                      <input type="submit" value="add">
+                  </td>
+              </tr>
+        </table>
+    </form>
+  </div>
+  <div id="sale">
+      <p>DATE:{{date}}</p>
+   </div>
+  <div id="links">
+      <a id="link" href="/add_new_customer">Add_new_customer</a><br>
+      <a id="link" href="/view_all_customers">View_all_customers</a><br>
+      <a id="link" href="/search_customer">Search_customer</a><br>
+      <a id="link" href="/Entry_to_send_goods">Entry_to_send_goods</a><br>
+      <a id="link" href="/Entry_for_deposit_money">Entry_for_deposit_money</a><br>
+      <a id="link" href="/home">click_here_for_home_page</a><br>
+  </div>
+  <div id="logout">
+      <a href="/userlogout">logout</a>
+  </div>
+</body>
+</html>

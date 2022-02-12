@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="static/css/sheet.css">
+    <meta charset="UTF-8">
+    <title>search</title>
+</head>
+<body>
+   <h1 id="head"><span id="Head">Search customer</span></h1>
+    <div id="sale">
+        <p>DATE:{{date}}</p>
+     </div>
+     <div id="search_form">
+   <form action="/searched_customer" method="post">
+       {% csrf_token%}
+      <label id="color" for="search">search_by:</label>
+      <select name="seacrh_by">
+          <option value="name" selected>name</option>
+          <option value="mobile">mobile_number</option>
+          <option value="city">city/village</option>
+          <option value="shop_name">shop_name</option>
+      </select>
+       <input type="search" placeholder="enter" name="search_value">
+       <input type="submit" value="search">
+     </div>
+     <div id="links">
+         <a id="link" href="/add_new_customer">Add_new_customer</a><br>
+         <a id="link" href="/view_all_customers">View_all_customers</a><br>
+         <a id="link" href="/search_customer">Search_customer</a><br>
+         <a id="link" href="/Entry_to_send_goods">Entry_to_send_goods</a><br>
+         <a id="link" href="/Entry_for_deposit_money">Entry_for_deposit_money</a><br>
+         <a id="link" href="/home">click_here_for_home_page</a><br>
+     </div>
+     <div id="logout">
+         <a href="/userlogout">logout</a>
+     </div>
+   </form>
+</body>
+</html>
